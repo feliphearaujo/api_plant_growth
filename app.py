@@ -3,7 +3,7 @@ import streamlit as st
 import joblib 
 
 # loading the trained model.
-model = joblib.load('modelo_ML.pkl')
+model = joblib.load('modelo_ML_plant.pkl')
 
 # carregando uma amostra dos dados.
 dataset = pd.read_csv('data_plant_growth.csv') 
